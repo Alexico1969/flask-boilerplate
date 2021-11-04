@@ -5,9 +5,10 @@ body{
 }
 
 .container{
-    background-image: url("/static/img/bg.png");
+    background-image: url("/static/img/binary3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    padding-top: 10px;
 
 }
 
@@ -37,24 +38,13 @@ button:hover{
     text-align: center;
     padding: 10px;
     border-radius: 10px;
-    margin: 0 20px;
-}
-
-#date{
-    position:absolute;
-    top:4vh;
-    left: 50px;
-    font-size: 20px;
-    border: 2px solid beige;
-    padding: 5px;
-    width: 120px;
-    border-radius: 5px;
-
+    margin: 10px 20px 10px 20px;
+    margin-top: 10px;
 }
 
 #clock{
     position:absolute;
-    top:4vh;
+    top: 7vh;
     right: 50px;
     font-size: 20px;
     border: 2px solid beige;
